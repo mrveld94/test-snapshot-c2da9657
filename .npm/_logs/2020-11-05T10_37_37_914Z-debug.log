@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/opt/conda/bin/node',
+1 verbose cli   '/opt/conda/bin/npm',
+1 verbose cli   'pack',
+1 verbose cli   '/home/jovyan/jupyterextensions/jupyterswirrlui'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.14.0
+4 verbose npm-session 88a32344f44c04ae
+5 silly pacote directory manifest for undefined@file:/home/jovyan/jupyterextensions/jupyterswirrlui fetched in 343ms
+6 info lifecycle @jupyterlab/swirrlui-extension@0.1.0~prepublish: @jupyterlab/swirrlui-extension@0.1.0
+7 info lifecycle @jupyterlab/swirrlui-extension@0.1.0~prepare: @jupyterlab/swirrlui-extension@0.1.0
+8 verbose lifecycle @jupyterlab/swirrlui-extension@0.1.0~prepare: unsafe-perm in lifecycle true
+9 verbose lifecycle @jupyterlab/swirrlui-extension@0.1.0~prepare: PATH: /opt/conda/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/jovyan/jupyterextensions/jupyterswirrlui/node_modules/.bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle @jupyterlab/swirrlui-extension@0.1.0~prepare: CWD: /home/jovyan/jupyterextensions/jupyterswirrlui
+11 silly lifecycle @jupyterlab/swirrlui-extension@0.1.0~prepare: Args: [ '-c', 'jlpm run clean && jlpm run build' ]
+12 silly lifecycle @jupyterlab/swirrlui-extension@0.1.0~prepare: Returned: code: 1  signal: null
+13 info lifecycle @jupyterlab/swirrlui-extension@0.1.0~prepare: Failed to exec prepare script
+14 verbose stack Error: @jupyterlab/swirrlui-extension@0.1.0 prepare: `jlpm run clean && jlpm run build`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/opt/conda/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+14 verbose stack     at EventEmitter.emit (events.js:315:20)
+14 verbose stack     at ChildProcess.<anonymous> (/opt/conda/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+14 verbose stack     at ChildProcess.emit (events.js:315:20)
+14 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+15 verbose pkgid @jupyterlab/swirrlui-extension@0.1.0
+16 verbose cwd /tmp/tmpqhtcgmo8
+17 verbose Linux 4.19.114
+18 verbose argv "/opt/conda/bin/node" "/opt/conda/bin/npm" "pack" "/home/jovyan/jupyterextensions/jupyterswirrlui"
+19 verbose node v14.14.0
+20 verbose npm  v6.14.8
+21 error code ELIFECYCLE
+22 error errno 1
+23 error @jupyterlab/swirrlui-extension@0.1.0 prepare: `jlpm run clean && jlpm run build`
+23 error Exit status 1
+24 error Failed at the @jupyterlab/swirrlui-extension@0.1.0 prepare script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]
